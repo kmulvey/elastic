@@ -79,6 +79,7 @@
 //go:generate go run builder.go -i=rest-api-spec/indices.upgrade.json
 //go:generate go run builder.go -i=rest-api-spec/indices.validate_query.json
 //go:generate go run builder.go -i=rest-api-spec/info.json
+//go:generate go run builder.go -i=rest-api-spec/info.xpack.json
 //go:generate go run builder.go -i=rest-api-spec/ingest.delete_pipeline.json
 //go:generate go run builder.go -i=rest-api-spec/ingest.get_pipeline.json
 //go:generate go run builder.go -i=rest-api-spec/ingest.put_pipeline.json
